@@ -1,0 +1,21 @@
+{
+    "name": "pierreminiggio/abstract-enum",
+    "description": "An Abstract Enum For PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\Enum\\": "src/"
+        }
+    },
+    "scripts": {}
+}
